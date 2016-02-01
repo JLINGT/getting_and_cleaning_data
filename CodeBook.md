@@ -15,7 +15,7 @@ These variables represent the subject/activity pair, in particular:
   
 ## Measurement Means
 
-- Time domain body acceleration mean along X, Y, and Z:
+ - Time domain body acceleration mean along X, Y, and Z:
   - MeanTimeBodyAccMeanX
   - MeanTimeBodyAccMeanY
   - MeanTimeBodyAccMeanZ
