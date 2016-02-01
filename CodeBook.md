@@ -13,7 +13,7 @@ These variables represent the subject/activity pair, in particular:
   * Laying
   
   
-## Means and Standard Deviation of Measurements. 
+## Means and Standard Deviation of Measurements
 
 All values are floating point numbers.
 
