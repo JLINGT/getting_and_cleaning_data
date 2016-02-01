@@ -12,4 +12,4 @@
 - combine training and test data
 - create tidy data
 
-The tidy data is written into `data_tidy.txt` file
+The tidy data is written into `data_tidy.txt` file.
