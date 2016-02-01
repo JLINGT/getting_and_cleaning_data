@@ -1,4 +1,4 @@
-# getting_and_cleaning_data Cource Project
+# getting_and_cleaning_data Course Project
 
 ## The following steps are used to create the tidy data
 
