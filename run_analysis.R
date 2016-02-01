@@ -1,5 +1,5 @@
 # clear workspace
-rm(list=ls())
+rm(list<-ls())
 
 # install required packages
 if (!require("data.table")) {
@@ -41,13 +41,13 @@ features_extracted <- grepl("mean|std", features)
 X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
 y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
 subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
-names(X_train) = features
+names(X_train) <- features
 
 # only the measurements on the mean and standard deviation
-X_train = X_train[,features_extracted]
+X_train <- X_train[,features_extracted]
 
 # load y_train activity 
-y_train[,2] = activities[y_train[,1]]
+y_train[,2] <- activities[y_train[,1]]
 names(y_train) <- c("Activity_Index", "Activity_Type")
 names(subject_train) <- "Subject"
 
