@@ -1,6 +1,6 @@
-# getting_and_cleaning_data Course Project
+# Getting and Cleaning Data Course Project
 
-## The following steps are used to create the tidy data
+## The following steps are used to in the script to create the tidy data
 
 - clear workspace
 - install required packages
